@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            border: solid 2px;
+            padding: 8px;
+            background-color: rgba(123, 123, 124, 0.37);
+            width: 30%;
+            height: 600px;
+        }
+        .container{
+            display: flex;
+            padding: 8px;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox</h1>
+    <hr>
+    <p>Mecanismo CSS que permite aplicar facilmente resursos de alinhamento, espaçamento e distribuição de elementos na
+        página. Útil na elaboração de layouts baseados em linhas/colunas</p>
+    <div class="container">
+        <div class="card">
+            <img src="imagens/mini-apple.jpg" alt="">
+            <h2>Apple</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, minima?</p>
+        </div>
+        <div class="card">
+            <img src="imagens/mini-ibm.jpg" alt="">
+            <h2>IBM</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, minima?</p>
+        </div>
+        <div class="card">
+            <img src="imagens/mini-microsoft.jpg" alt="">
+            <h2>Microsoft</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, minima?</p>
+        </div>
+    </div>
+</body>
+
+</html>
